@@ -1,0 +1,34 @@
+.page {
+  max-width: 1280px;
+  min-width: 1180px;
+}
+
+.block__title {
+  font-family: Geometria,sans-serif;
+  font-size: 16px;
+  color: #231F20
+}
+
+.form__item_el_town {
+  width: 830px;
+}
+
+.form__item_el_street {
+  width: 450px;
+}
+
+.form__item_el_home-number {
+  width: 100px;
+}
+
+.form__item_el_street_corpus {
+  width: 150px;
+}
+
+.form__item_el_room {
+  width: 200px;
+}
+
+.form__item_el_tel {
+  width: 300px;
+}
