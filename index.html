@@ -9,29 +9,60 @@
 <body>
   <div class="page">
     <section class="form">
+
       <div class="form__container">
         <h2 class="block__title">Кому</h2>
-        <fieldset class="form__input_container-one">
+        <fieldset class="form__input_container-first">
           <input class="form__item form__item_el_fio" type="text" id="fio" name="fio" placeholder="Укажите Фамилию, Имя и Отчество держателя" required>
           <input class="form__item form__item_el_card-name" type="text" id="card-name" name="card-name" placeholder="Имя на карте" required>
           <input class="form__item form__item_el_company" type="text" id="company" name="company" placeholder="Название компании (латиницей)" required>
         </fieldset>
       </div>
+
       <div class="form__container">
         <h2 class="block__title">Куда</h2>
-        <fieldset class="form__input_container-two">
+        <fieldset class="form__input_container-second">
             <input class="form__item form__item_el_town whom" type="text" id="town" name="town" placeholder="Город доставки" required>
             <input type="button" onclick="reset()" value="Другой адрес">
            <input class="form__item form__item_el_street whom" type="text" id="street" name="street" placeholder="Улица" required>
            <input class="form__item form__item_el_home-number whom" type="number" id="home-number" name="home-number" placeholder="Дом" required>
            <input class="form__item form__item_el_corpus whom" type="number" id="corpus" name="corpus" placeholder="Корпус">
            <input class="form__item form__item_el_room whom" type="number" id="room" name="room" placeholder="Квартира" required>
-           <input type="tel" class="form__item form__item_el_tel whom" id="tel" name="tel"
+        </fieldset>
+      </div>
+
+      <div class="form__container">
+        <h2 class="block__title">Телефон</h2>
+        <fieldset class="form__input_container-third">
+          <input type="tel" class="form__item form__item_el_tel whom" id="tel" name="tel"
            placeholder="Мобильный, для службы доставки" required>
+        </fieldset>
+      </div>
 
+      <div class="form__container">
+        <h2 class="block__title">Держатель</h2>
+        <fieldset class="form__input_container-fourth">
+          <input type="text" class="form__item form__item_el_surname" id="surname" name="surname"
+       placeholder="Фамилия" required>
+       <input type="text" class="form__item form__item_el_name" id="name" name="name"
+       placeholder="Имя" required>
+       <input type="text" class="form__item form__item_el_patronymic" id="patronymic" name="patronymic" placeholder="Отчество" required>
 
+         <label for="without-patronymic" class="form__label">
+           <input type="checkbox" name="extra-option" id="without-patronymic" class="form__item form__item_el_extra-options" value="without-patronymic">
+            <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+            <span class="form__label-text">Отчество отсутствует</span>
+              </label>
+        <input class="form__item form__item_el_born" type="text" id="born" name="born" placeholder="Место рождения" required>
+        <input class="form__item form__item_el_born-date" type="date" id="born-date" name="born-date" placeholder="Дата рождения" required>
+        </fieldset>
+      </div>
+        <h2 class="block__title">Документ</h2>
+        <fieldset class="form__input_container-fifth">
 
         </fieldset>
+      <div class="form__container">
+
       </div>
     </section>
   </div>
