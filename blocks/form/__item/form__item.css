@@ -166,7 +166,7 @@
 
 .form__item:checked[type="radio"]+.form__pseudo-card_el_business+.form__checked-sign,
 .form__item:checked[type="radio"]+.form__pseudo-card_el_business-no-name+.form__checked-sign {
-  background-image: url(../../../images/галочка.png);
+  background-image: url(../../../images/check.png);
 }
 
 
