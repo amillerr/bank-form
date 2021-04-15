@@ -12,3 +12,5 @@
 
 - Клонирование репозитория командой : git clone https://github.com/amillerr/bank-form.git
 - Запуск index.html в бразуере
+
+#### Ссылка на проект - https://amillerr.ru/bank-form
